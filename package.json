@@ -1,0 +1,20 @@
+{
+	"name": "simple-ansi",
+	"version": "0.0.1",
+	"main" : "ansi.js",
+	"private": false,
+	"author": "Ali Watters @ creativeLIVE: http://github.com/cl-ali",
+	"description": "A simple module to expose ansi terminal codes as memorable names.",
+	"keywords" : ["ansi", "simple", "colors"],
+	"homepage": "http://github.com/cl-ali/simple-ansi",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/cl-ali/simple-ansi.git"
+	},
+	"engines": {
+		"node": ">=0.8.0"
+	},
+	"directories": {
+	},
+	"license": "MIT"
+}
