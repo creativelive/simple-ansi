@@ -1,20 +1,34 @@
 {
-	"name": "simple-ansi",
-	"version": "0.0.1",
-	"main" : "ansi.js",
-	"private": false,
-	"author": "Ali Watters @ creativeLIVE: http://github.com/creativelive",
-	"description": "A simple module to expose ansi terminal codes as memorable names.",
-	"keywords" : ["ansi", "simple", "colors"],
-	"homepage": "http://github.com/creativelive/simple-ansi",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/creativelive/simple-ansi.git"
-	},
-	"engines": {
-		"node": ">=0.8.0"
-	},
-	"directories": {
-	},
-	"license": "MIT"
+  "name": "simple-ansi",
+  "version": "0.0.2",
+  "main": "index.js",
+  "private": false,
+  "author": "Ali Watters @ creativeLIVE: http://github.com/creativelive",
+  "description": "A simple module to expose ansi terminal codes as memorable names.",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js lint && node test"
+  },
+  "keywords": [
+    "ansi",
+    "simple",
+    "colors"
+  ],
+  "homepage": "http://github.com/creativelive/simple-ansi",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativelive/simple-ansi.git"
+  },
+  "directories": {},
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "minimist": "^0.1.0",
+    "gulp-jsbeautifier": "0.0.2",
+    "gulp-diff": "^0.1.4",
+    "confidence": "^0.12.1",
+    "gulp-eslint": "^0.1.7"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^2.13.1"
+  }
 }
