@@ -1,4 +1,4 @@
-# simple-ansi [![](https://travis-ci.org/creativelive/simple-ansi.png)](https://travis-ci.org/creativelive/simple-ansi)
+# simple-ansi [![](https://travis-ci.org/creativelive/simple-ansi.svg)](https://travis-ci.org/creativelive/simple-ansi)
 
 Simply expose a minimal subset of the ansi terminal codes, for use manually.
 
